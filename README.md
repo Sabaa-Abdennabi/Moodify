@@ -35,7 +35,7 @@ Créer une plateforme intelligente qui analyse en temps réel l’humeur des mus
 ### B. Traitement
 
 - **Streaming :**  
-  Spark Streaming récupère les JSON en entrée (via API simulée), calcule le mood, et sauvegarde les données dans HDFS.
+  Spark Streaming récupère les JSON en entrée (via API simulée), calcule le mood, et sauvegarde les données dans Mongo.
 
 - **Batch :**  
   Script PySpark pour :  
@@ -64,6 +64,6 @@ Créer une plateforme intelligente qui analyse en temps réel l’humeur des mus
 | Streaming  | Spark Streaming        |
 | Batch      | PySpark                |
 | Stockage   | MongoDB                |
-| Visualisation | React + p5.js        |
+| Visualisation | React               |
 
 
